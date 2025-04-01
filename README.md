@@ -148,7 +148,12 @@ Implementar la clase base `Vehiculo` que servirá como punto de partida para la 
 - ✅ Todos los Milestones completos
 - ✅ Todos los PRs revisados y mergeados
 - ✅ Project con todas las tareas en `Done`
-- ✅ Este archivo `README.md` completo
+- ✅ Este archivo `README.md` completo con:
+  - Nombre y apellido del alumno
+  - Instrucciones detalladas de cómo ejecutar el proyecto
+  - Requisitos previos (JDK, IDE, etc.)
+  - Pasos para compilar y ejecutar
+  - Ejemplos de uso
 
 > ⏰ **Fecha de vencimiento**: 09/04/2025 a las 13:00 hs
 
