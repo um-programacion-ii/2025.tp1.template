@@ -58,7 +58,6 @@ Cada grupo debe:
 2. **Proteger la rama main**:
    - Ir a Settings > Branches > Branch protection rules
    - Agregar regla para la rama `main`
-   - Requerir revisión de al menos un compañero antes de mergear
    - Requerir que los tests pasen antes de mergear
    - No permitir push directo a main
 
@@ -80,13 +79,20 @@ Cada grupo debe:
    Cada Issue debe:
    - Tener un título claro y descripción breve
    - Estar asociado a un `Milestone` y al `Project`
+   - Tener asignado al menos un miembro del equipo
+   - Incluir labels apropiados (ej: `enhancement`, `bug`, `documentation`)
    - Ser implementado en una nueva rama (branch) creada desde `main`
    - La rama debe seguir el formato: `feature/descripcion-corta` o `fix/descripcion-corta`
    - Ser cerrado mediante un Pull Request (PR) que mergee la rama a `main`
+   - Actualizar su estado en el Kanban board según corresponda
 
 6. Hacer **Pull Requests** por cada Issue.
    - Cada PR debe mencionar el Issue que cierra (ej: `Closes #2`)
+   - Debe incluir los mismos labels que el Issue asociado
+   - Debe estar asociado al mismo Milestone que el Issue
+   - Debe estar asociado al mismo Project que el Issue
    - El código debe estar revisado antes de ser fusionado a `main`
+   - Al mergear, actualizar el estado del Issue en el Kanban board a `Done`
 
 ---
 
