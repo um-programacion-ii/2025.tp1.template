@@ -80,7 +80,9 @@ Cada grupo debe:
    Cada Issue debe:
    - Tener un título claro y descripción breve
    - Estar asociado a un `Milestone` y al `Project`
-   - Ser resuelto en una nueva rama y cerrado con un Pull Request (PR)
+   - Ser implementado en una nueva rama (branch) creada desde `main`
+   - La rama debe seguir el formato: `feature/descripcion-corta` o `fix/descripcion-corta`
+   - Ser cerrado mediante un Pull Request (PR) que mergee la rama a `main`
 
 6. Hacer **Pull Requests** por cada Issue.
    - Cada PR debe mencionar el Issue que cierra (ej: `Closes #2`)
@@ -141,6 +143,8 @@ Implementar la clase base `Vehiculo` que servirá como punto de partida para la 
 - ✅ Todos los PRs revisados y mergeados
 - ✅ Project con todas las tareas en `Done`
 - ✅ Este archivo `README.md` completo
+
+> ⏰ **Fecha de vencimiento**: 09/04/2025 a las 13:00 hs
 
 ---
 
